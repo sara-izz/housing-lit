@@ -1,0 +1,1248 @@
+.FulltextWrapper {
+	padding: 20px;
+}
+img {
+	border: 0px currentColor; border-image: none; vertical-align: middle; max-width: 100%;
+}
+.MathJax_ExBox {
+	display: block !important;
+}
+.MathJax_EmBox {
+	display: block !important;
+}
+.ArticleContextInformation {
+	margin-bottom: 0.83em;
+}
+.ChapterContextInformation {
+	margin-bottom: 0.83em;
+}
+.ContextInformation span {
+	margin: 3px 0px; font-size: 11px; display: block;
+}
+.BookContextInformation {
+	padding-bottom: 0.5em; font-size: 10pt; border-bottom-color: rgb(218, 219, 219); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.BookContextInformation .ContextInformationEditorsAuthors::after {
+	content: ", ";
+}
+.BookContextInformation .ContextInformationSeriesTitles::after {
+	content: ", ";
+}
+.BookContextInformation .BookTitle::after {
+	content: ", ";
+}
+.BookContextInformation .BookTitle {
+	font-style: italic;
+}
+.BookContextInformation .BookEdition::after {
+	content: ", ";
+}
+.BookContextInformation .ContextInformationDOI::after {
+	content: ", ";
+}
+.ArticleContextInformation .JournalTitle {
+	display: block;
+}
+.ArticleContextInformation .JournalSubTitle {
+	display: block;
+}
+.ChapterContextInformation .SeriesTitle {
+	display: block;
+}
+.ChapterContextInformation .SeriesSubTitle {
+	display: block;
+}
+.ChapterContextInformation .xBookTitle {
+	display: block;
+}
+.ChapterContextInformation .BookSubTitle {
+	display: block;
+}
+.ChapterContextInformation .BookEdition {
+	display: inline;
+}
+.ChapterContextInformation .BookEdition::before {
+	content: ", ";
+}
+.ArticleCopyright .CopyrightComment {
+	display: block;
+}
+.ChapterCopyright .CopyrightComment {
+	display: block;
+}
+.ContextInformation .ContextInformationBookTitles span {
+	display: inline;
+}
+.Categories {
+	line-height: 1.2; letter-spacing: 0.02em; font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif; font-weight: 400; margin-top: 1em; margin-bottom: 1em;
+}
+.ArticleCategory {
+	margin: 14px 0px -14px; font-size: 16px;
+}
+.ChapterCategory {
+	margin: 14px 0px -14px; font-size: 16px;
+}
+.ArticleSubCategory {
+	margin: 14px 0px -14px; font-size: 13px;
+}
+.ChapterSubCategory {
+	margin: 14px 0px -14px; font-size: 13px;
+}
+.MainTitleSection {
+	line-height: 1.2; letter-spacing: 0.02em; font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif; font-size: 30px; font-weight: 400; margin-top: 14px; margin-bottom: 7px;
+}
+.ArticleSuperTitle {
+	font-size: 19px;
+}
+.ArticleTitle {
+	font-size: 24px;
+}
+.ChapterTitle {
+	font-size: 24px;
+}
+.ArticleSubTitle {
+	font-size: 19px;
+}
+.ChapterSubTitle {
+	font-size: 19px;
+}
+.Prefix::after {
+	content: "\00a0";
+}
+.Suffix::before {
+	content: "\00a0";
+}
+.NativeName::before {
+	content: "\00a0(";
+}
+.Role::before {
+	content: "\00a0(";
+}
+.NativeName::after {
+	content: ")";
+}
+.Role::after {
+	content: ")";
+}
+.Affiliation {
+	font-family: Arial,Helvetica,sans-serif; font-size: 10pt; margin-top: 2px;
+}
+.AffiliationText {
+	margin-left: 1em; display: inline;
+}
+.AffiliationHint {
+	font-style: italic;
+}
+.AffiliationNumber {
+	padding-right: 0.5em; float: left;
+}
+.ClearBoth {
+	line-height: 0 !important; clear: both; font-size: 0px;
+}
+.Contact {
+	font-family: Arial,Helvetica,sans-serif; font-size: 10pt; margin-top: 1em; margin-bottom: 1em;
+}
+.Contact .ContactIcon {
+	width: 14px; height: 10px; margin-top: 4px; margin-right: 4px; float: left; background-image: url("../images/envelope.png"); background-repeat: no-repeat;
+}
+.ContactAuthorLine {
+	padding-left: 20px; font-weight: 700;
+}
+.ContactAdditionalLine {
+	padding-left: 20px;
+}
+.ContactType {
+	font-weight: 700;
+}
+.ArticleHistory {
+	font-family: Arial,Helvetica,sans-serif; font-size: 10pt; margin-top: 1em; margin-bottom: 1em;
+}
+.HistoryLabel {
+	font-weight: 700;
+}
+.History + .History {
+	padding-left: 0.5em;
+}
+.ArticleOrChapterToc {
+	padding-top: 1em; margin-top: 1em; border-top-color: rgb(218, 219, 219); border-top-width: 2px; border-top-style: groove;
+}
+.ArticleOrChapterToc .HeadingNumber {
+	padding-right: 0.3em; font-weight: 700;
+}
+.Abstract {
+	margin-top: 14px;
+}
+.Abstract > .Heading {
+	line-height: 1.2; letter-spacing: 0.02em; font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif; font-size: 24px; font-weight: 400;
+}
+.AbstractSection {
+	margin-top: 0.3em;
+}
+.AbstractSection > .Heading {
+	margin: 1.2em 0px 0.4em; font-size: 1.5em; font-weight: 400;
+}
+@media all and (min-width:1025px)
+{
+.AbstractSection > .Heading {
+	margin: 0.7em 0px 0.3em; font-size: 1.2em;
+}
+}
+.KeywordGroup {
+	line-height: 1.6; margin-top: 1em;
+}
+.KeywordGroup .Heading {
+	margin: 20px 0px 7px; font-size: 16px;
+}
+.Keyword + .Keyword::before {
+	content: " \2013  ";
+}
+.ForeignLanguageHeader {
+	padding-left: 3em; margin-top: 1em; border-top-color: rgb(218, 219, 219); border-top-width: 2px; border-top-style: groove;
+}
+.ForeignLanguageTitleSection {
+	color: rgb(68, 68, 68); font-family: Arial,Helvetica,sans-serif; font-weight: 700; margin-top: 1.2em; margin-bottom: 1.2em;
+}
+.KeywordGroup + .ForeignLanguageHeader::before {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.KeywordGroup + .ForeignLanguageHeader {
+	margin: 0px 0px 20px;
+}
+.AbbreviationGroup {
+	margin-top: 1em;
+}
+.ForeignLanguageHeader + .AbbreviationGroup {
+	padding-top: 1em; margin-top: 1em; border-top-color: rgb(218, 219, 219); border-top-width: 2px; border-top-style: groove;
+}
+.AbbreviationGroup > .Heading {
+	font-weight: 700; margin-bottom: 1em; display: block;
+}
+.AbbreviationGroup .DefinitionList {
+	padding: 0.1em 0.1em 0.1em 1em; margin-top: 0px; margin-bottom: 0px;
+}
+.AbbreviationGroupSection > .Heading {
+	font-weight: 700; display: block;
+}
+.ArticleNoteMotto {
+	text-align: right;
+}
+:first-of-type.ArticleNote {
+	padding-top: 1em; margin-top: 2em; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.FulltextWrapper .ArticleNote .Heading {
+	font-size: 15px; margin-bottom: 0.5em;
+}
+.ArticleNote p {
+	font-style: italic;
+}
+.Biography {
+	width: 100%; padding-top: 0.8em; padding-bottom: 0px; display: table;
+}
+.Biography .FormalPara {
+	display: table-row-group;
+}
+.Biography .BiographyFigure {
+	display: table-footer-group;
+}
+.Biography .Figure {
+	margin-top: 0.5em; margin-bottom: 0px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.Fulltext > :first-of-type.Para > :first-of-type.BlockQuote {
+	margin-top: 0px;
+}
+.BlockQuote {
+	margin: 13px 40px;
+}
+.BlockQuote > .Heading {
+	font-family: Arial,Helvetica,sans-serif; font-size: 12pt; font-weight: 700; margin-top: 1em;
+}
+.Caption {
+	display: block;
+}
+.Caption {
+	font-family: Arial,Helvetica,sans-serif; font-size: 10pt; margin-top: 1.5em; margin-bottom: 1.5em;
+}
+.TableFooter {
+	font-family: Arial,Helvetica,sans-serif; font-size: 10pt; margin-top: 1.5em; margin-bottom: 1.5em;
+}
+.CaptionNumber {
+	padding-right: 0.5em; font-weight: 700;
+}
+.CaptionContent > span {
+	margin-top: 0.3em; display: block;
+}
+.CaptionContent span:first-of-type {
+	margin-top: 0px; display: inline;
+}
+.TableFooter {
+	margin-top: 1em;
+}
+.Table .Caption {
+	margin-top: 0.5em;
+}
+.Figure .Caption {
+	margin-bottom: 1em;
+}
+.Table .Caption {
+	margin-bottom: 0.5em;
+}
+figure {
+	margin: 2em 0px;
+}
+.DefinitionList {
+	padding: 0.1em; margin-top: 1em; margin-bottom: 1em;
+}
+.DefinitionList > .Heading {
+	font-style: italic; margin-bottom: 0.5em; display: block;
+}
+.DefinitionListEntry {
+	clear: both; margin-left: 7px;
+}
+.Term {
+	padding-right: 14px; font-style: italic; font-weight: 700; vertical-align: top;
+}
+.Description {
+	padding-bottom: 7px; display: block;
+}
+.Description .Para {
+	line-height: 1.2;
+}
+.EmphasisTypeBold {
+	font-weight: 700;
+}
+.EmphasisTypeItalic {
+	font-style: italic;
+}
+.EmphasisTypeUnderline {
+	text-decoration: underline;
+}
+.EmphasisTypeDoubleUnderline {
+	border-bottom-color: rgb(0, 0, 0); border-bottom-width: 4px; border-bottom-style: double;
+}
+.EmphasisTypeSmallCaps {
+	font-variant: small-caps;
+}
+.EmphasisTypeBoldItalic {
+	font-style: italic; font-weight: 700;
+}
+.EmphasisTypeBoldUnderline {
+	font-weight: 700; text-decoration: underline;
+}
+.EmphasisTypeBoldDoubleUnderline {
+	font-weight: 700; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 4px; border-bottom-style: double;
+}
+.EmphasisTypeBoldSmallCaps {
+	font-variant: small-caps; font-weight: 700;
+}
+.EmphasisTypeItalicUnderline {
+	font-style: italic; text-decoration: underline;
+}
+.EmphasisTypeItalicDoubleUnderline {
+	font-style: italic; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 4px; border-bottom-style: double;
+}
+.EmphasisTypeItalicSmallCaps {
+	font-style: italic; font-variant: small-caps;
+}
+.EmphasisTypeBoldItalicUnderline {
+	font-style: italic; font-weight: 700; text-decoration: underline;
+}
+.EmphasisTypeBoldItalicDoubleUnderline {
+	font-style: italic; font-weight: 700; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 4px; border-bottom-style: double;
+}
+.EmphasisTypeBoldItalicSmallCaps {
+	font-style: italic; font-variant: small-caps; font-weight: 700;
+}
+.EmphasisTypeUnderlineSmallCaps {
+	font-variant: small-caps; text-decoration: underline;
+}
+.EmphasisTypeDoubleUnderlineSmallCaps {
+	font-variant: small-caps; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 4px; border-bottom-style: double;
+}
+.EmphasisFontCategoryNonProportional {
+	font-family: "Courier New",Courier,monospace;
+}
+.EmphasisFontCategorySansSerif {
+	font-family: Arial,Helvetica,sans-serif;
+}
+.EmphasisTypeStrikethrough {
+	text-decoration: line-through;
+}
+.Figure {
+	text-align: center; text-indent: 0px; padding-top: 0.5em; padding-bottom: 0.5em; margin-top: 1em; margin-bottom: 1em;
+}
+.OpeningFigure .Figure {
+	padding-bottom: 1em;
+}
+.Biography .Figure {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.Figure img {
+	margin: 0px; height: auto; max-width: 100%;
+}
+.MediaObject {
+	display: block;
+}
+.MediaObject + .MediaObject {
+	margin-top: 1em;
+}
+.FootnoteSection {
+	font-family: Arial,Helvetica,sans-serif; margin-top: 2.5em; border-top-color: rgb(218, 219, 219); border-top-width: 1px; border-top-style: solid;
+}
+.FootnoteSection > .Heading {
+	line-height: 1.2; letter-spacing: 0.02em; font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif; font-size: 24px; font-weight: 400; margin-top: 14px; margin-bottom: 7px; display: block;
+}
+.Footnote {
+	text-align: left; clear: both;
+}
+.FootnoteNumber {
+	padding-right: 0.5em; vertical-align: super; float: left;
+}
+.FootnoteParas div {
+	margin-top: 0.3em; margin-left: 1em;
+}
+.Footnote > .FootnoteNumber {
+	margin-top: 0.2em; vertical-align: baseline;
+}
+.FootnoteContent {
+	margin-bottom: 7px;
+}
+.Equation {
+	width: 100%; margin-top: 0.5em; margin-bottom: 0.5em; display: table;
+}
+.EquationContent {
+	text-align: left; display: table-cell;
+}
+.EquationNumber {
+	text-align: right; vertical-align: middle; float: right; display: table-cell;
+}
+.EquationSourceXml {
+	white-space: nowrap;
+}
+.HeadingNumber {
+	padding-right: 0.3em;
+}
+.RenderAsSection1 > .Heading {
+	letter-spacing: 0.02em; font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif; font-size: 24px; font-weight: 400; margin-top: 14px; margin-bottom: 7px; display: block;
+}
+.RenderAsSection2 > .Heading {
+	letter-spacing: 0.02em; font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif; font-size: 20px; font-weight: 400; margin-top: 14px; margin-bottom: 7px; display: block;
+}
+.RenderAsSection3 > .Heading {
+	font-family: Arial,Helvetica,sans-serif; font-size: 14pt; font-weight: 700; margin-top: 0.8em; margin-bottom: 0.8em; display: block;
+}
+.RenderAsSection4 > .Heading {
+	font-family: Arial,Helvetica,sans-serif; font-size: 14pt; font-style: italic; font-weight: 700; margin-top: 0.8em; margin-bottom: 0.8em; display: block;
+}
+.RenderAsSection5 > .Heading {
+	font-family: Arial,Helvetica,sans-serif; font-size: 12pt; font-weight: 700; margin-top: 0.8em; margin-bottom: 0.8em; display: block;
+}
+.RenderAsSection6 > .Heading {
+	font-family: Arial,Helvetica,sans-serif; font-size: 12pt; font-style: italic; margin-top: 0.8em; margin-bottom: 0.8em; display: block;
+}
+.RenderAsSection7 > .Heading {
+	font-family: Arial,Helvetica,sans-serif; font-size: 12pt; text-decoration: underline; margin-top: 0.8em; margin-bottom: 0.8em; display: block;
+}
+.SectionTypeBox > .Heading {
+	margin-top: 8px;
+}
+.SectionTypeOverview > .Heading {
+	margin-top: 8px;
+}
+.SectionTypeWarning > .Heading {
+	margin-top: 8px;
+}
+.FormalPara {
+	margin-top: 1em; margin-bottom: 1em;
+}
+.FormalParaRenderingStyle1 > .Heading {
+	padding-right: 1em; font-style: italic;
+}
+.FormalParaRenderingStyle2 > .Heading {
+	padding-right: 1em; text-decoration: underline;
+}
+.FormalParaRenderingStyle3 > .Heading {
+	padding-right: 1em;
+}
+.Literal {
+	font-family: "Courier New",Courier,monospace;
+}
+.OrderedList {
+	margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.5em; display: table;
+}
+.OrderedList .Heading {
+	font-style: italic; margin-top: 1em; margin-left: -1.5em; display: table-caption;
+}
+.OrderedList .Heading + .ListItem {
+	margin-top: 0px;
+}
+.ListItem {
+	padding-top: 0.5em;
+}
+.ItemNumber {
+	font-style: italic; font-weight: 700; margin-top: 3px; margin-right: 0.7em; float: left;
+}
+.Para {
+	line-height: 1.6;
+}
+p {
+	line-height: 1.6;
+}
+.Para + .Para {
+	margin-top: 0.5em;
+}
+.ParaTypeExample {
+	padding-left: 0.5em; margin-top: 1em !important; margin-bottom: 1em; border-left-color: rgb(218, 219, 219); border-left-width: 4px; border-left-style: solid;
+}
+.ParaTypeTip {
+	padding-left: 0.5em; margin-top: 1em !important; margin-bottom: 1em; border-left-color: rgb(218, 219, 219); border-left-width: 4px; border-left-style: solid;
+}
+.ParaTypeEyeCatcher {
+	background: rgb(241, 241, 241); padding: 0.5em; border: 2px solid rgb(204, 204, 204); border-image: none; margin-top: 0.8em !important; margin-bottom: 0.8em;
+}
+.ParaTypeImportant {
+	background: rgb(241, 241, 241); padding: 0.5em; border: 2px solid rgb(204, 204, 204); border-image: none; margin-top: 0.8em !important; margin-bottom: 0.8em;
+}
+.ParaTypeWarning {
+	background: rgb(241, 241, 241); padding: 0.5em; border: 2px solid rgb(204, 204, 204); border-image: none; margin-top: 0.8em !important; margin-bottom: 0.8em;
+}
+.ParaTypeGeneticSequence {
+	font-family: "Courier New",Courier,monospace;
+}
+.ParaTypeLiteral {
+	font-family: "Courier New",Courier,monospace;
+}
+.ParaTypeProgramCode {
+	font-family: "Courier New",Courier,monospace;
+}
+.ParaTypeLegalText {
+	text-align: left; font-weight: 700;
+}
+.ParaTypeOverview {
+	padding: 0.5em; border: 2px solid rgb(218, 219, 219); border-image: none; margin-top: 0.8em !important; margin-bottom: 0.8em;
+}
+.ParaTypeSource {
+	font-style: italic;
+}
+.ParaTypeTrailer {
+	padding-right: 0.5em; padding-left: 0.5em; font-weight: 700;
+}
+.Section1 .AuthorNames {
+	margin-top: 0.3em; margin-bottom: 0.5em;
+}
+.Section2 .AuthorNames {
+	margin-top: 0.3em; margin-bottom: 0.5em;
+}
+.Section3 .AuthorNames {
+	margin-top: 0.3em; margin-bottom: 0.5em;
+}
+.SectionTypeBox {
+	border: 2px solid rgb(218, 219, 219); border-image: none; padding-right: 0.5em; padding-bottom: 0.5em; padding-left: 0.5em; margin-top: 1em !important;
+}
+.SectionTypeOverview {
+	border: 2px solid rgb(218, 219, 219); border-image: none; padding-right: 0.5em; padding-bottom: 0.5em; padding-left: 0.5em; margin-top: 1em !important;
+}
+.SectionTypeExample {
+	padding: 0px 0.5em 0.5em; margin-top: 1em !important; border-left-color: rgb(218, 219, 219); border-left-width: 4px; border-left-style: solid;
+}
+.SectionTypeTip {
+	padding: 0px 0.5em 0.5em; margin-top: 1em !important; border-left-color: rgb(218, 219, 219); border-left-width: 4px; border-left-style: solid;
+}
+.SectionTypeExample > .Heading {
+	
+}
+.SectionTypeLegalText {
+	text-align: left; font-weight: 700;
+}
+.SectionTypeTrailer {
+	text-align: left; font-weight: 700;
+}
+.SectionTypeWarning {
+	background: rgb(214, 214, 214); border: 2px solid rgb(218, 219, 219); border-image: none; padding-right: 0.5em; padding-bottom: 0.5em; padding-left: 0.5em; margin-top: 1em !important;
+}
+.RenderAsSection1 {
+	margin-top: 1em; border-top-color: rgb(218, 219, 219); border-top-width: 2px; border-top-style: groove;
+}
+.SectionTypeBox + .RenderAsSection1 {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.SectionTypeOverview + .RenderAsSection1 {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.SectionTypeWarning + .RenderAsSection1 {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.SidebarDialog {
+	margin: 1em 2em; padding: 0.2em; border: 1px solid rgb(0, 0, 0); border-image: none; text-indent: 0px;
+}
+.SidebarNumber {
+	padding-right: 0.5em; font-weight: 700;
+}
+.SimplePara + .SimplePara {
+	margin-top: 0.5em;
+}
+.SimplePara {
+	margin: 7px 0px; line-height: 1.2;
+}
+.UnorderedList {
+	margin: 0px 0px 7px 20px;
+}
+.UnorderedList ul {
+	margin-top: 0.5em;
+}
+.UnorderedList .Heading {
+	margin: 1em 0px 0px !important; font-style: italic; display: block;
+}
+.Heading + ul {
+	margin-top: 0px;
+}
+ul.UnorderedListMarkBullet {
+	list-style-type: disc;
+}
+ul.UnorderedListMarkBullet div {
+	margin-bottom: 0.3em;
+}
+ul.UnorderedListMarkNone {
+	list-style-type: none;
+}
+ul.UnorderedListMarkNone div {
+	margin-bottom: 0.3em;
+}
+ul.UnorderedListMarkDash {
+	list-style: none; text-indent: -1em; padding-left: 1em; margin-left: -12px;
+}
+ul.UnorderedListMarkDash div:first-of-type {
+	display: inline;
+}
+ul.UnorderedListMarkDash div {
+	text-indent: 0px; margin-top: 0.3em; margin-bottom: 0.3em;
+}
+ul.UnorderedListMarkDash li::before {
+	content: "\2013 \0020";
+}
+.Acknowledgments .SimplePara {
+	margin-top: 0px;
+}
+.Glossary {
+	padding-top: 0.3em; padding-bottom: 0.8em; margin-top: 0.5em; border-top-color: rgb(218, 219, 219); border-top-width: 2px; border-top-style: groove;
+}
+.Glossary .Headings {
+	letter-spacing: 0.02em; font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif; font-size: 20px; font-weight: 400; margin-top: 14px; margin-bottom: 7px;
+}
+.Glossary > .Headings > .Heading {
+	font-size: 19pt; display: block;
+}
+.Glossary > .Headings > .SubHeading {
+	font-size: 14pt; display: block;
+}
+.GlossarySection .Headings {
+	letter-spacing: 0.02em; font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif; font-size: 18px; font-weight: 400; margin-top: 14px; margin-bottom: 7px;
+}
+.GlossarySection > .Headings > .Heading {
+	font-size: 16pt; display: block;
+}
+.GlossarySection > .Headings > .SubHeading {
+	font-size: 12pt; display: block;
+}
+.GlossaryTerm {
+	padding-right: 0.5em; font-style: italic;
+}
+.GlossarySeeLabel {
+	padding-right: 0.3em; font-style: italic;
+}
+.GlossarySeeAlsoLabel {
+	padding-right: 0.3em; font-style: italic;
+}
+.GlossaryEntry {
+	margin-bottom: 1em;
+}
+.GlossaryDef {
+	margin-top: 0.3em;
+}
+.GlossaryTerm {
+	font-weight: 700; display: inline;
+}
+.GlossaryTerm + .GlossarySee {
+	display: inline;
+}
+.GlossaryTerm + .GlossarySeeAlso {
+	display: inline;
+}
+.Toc {
+	padding-top: 1em; margin-top: 1em; border-top-color: rgb(0, 0, 0); border-top-width: 2px; border-top-style: groove;
+}
+.TocAppendix {
+	padding-top: 1em; margin-top: 1em; border-top-color: rgb(0, 0, 0); border-top-width: 2px; border-top-style: groove;
+}
+.Toc .Headings {
+	font-family: Arial,Helvetica,sans-serif; font-weight: 700; margin-bottom: 1em;
+}
+.TocAppendix .Headings {
+	font-family: Arial,Helvetica,sans-serif; font-weight: 700; margin-bottom: 1em;
+}
+.Toc > .Headings > .Heading {
+	font-size: 19pt; display: block;
+}
+.TocAppendix > .Headings > .Heading {
+	font-size: 19pt; display: block;
+}
+.Toc > .Headings > .SubHeading {
+	font-size: 14pt; display: block;
+}
+.TocAppendix > .Headings > .SubHeading {
+	font-size: 14pt; display: block;
+}
+.TocEntry {
+	margin-top: 1em;
+}
+.TocPart {
+	margin-top: 1em;
+}
+.TocBack {
+	margin-top: 1em;
+}
+.TocItem {
+	font-weight: 700;
+}
+.TocPageNumber {
+	display: none;
+}
+.Toc .TocAuthors {
+	padding-left: 2em;
+}
+.TocAppendix .TocAuthors {
+	padding-left: 2em;
+}
+.Index {
+	padding-top: 0.3em; margin-top: 1em; margin-bottom: 0.8em; border-top-color: rgb(0, 0, 0); border-top-width: 2px; border-top-style: groove;
+}
+.Index .Headings {
+	font-family: Arial,Helvetica,sans-serif; font-weight: 700; margin-top: 0.8em; margin-bottom: 0.8em;
+}
+.Index > .Headings > .Heading {
+	font-size: 19pt; display: block;
+}
+.Index > .Headings > .SubHeading {
+	font-size: 14pt; display: block;
+}
+.IndexDiv .Headings {
+	font-family: Arial,Helvetica,sans-serif; font-weight: 700; margin-top: 1em; margin-bottom: 0.3em;
+}
+.IndexDiv > .Headings > .Heading {
+	font-size: 16pt; display: block;
+}
+.IndexDiv > .Headings > .SubHeading {
+	font-size: 12pt; font-style: italic; display: block;
+}
+.IndexEntrySeeLabel {
+	padding-right: 0.3em; font-style: italic; margin-left: 1em;
+}
+.SecondaryIE {
+	margin-left: 1em;
+}
+.TertiaryIE {
+	margin-left: 2em;
+}
+.Bibliography {
+	width: 75%; margin-top: 1em; border-top-color: rgb(218, 219, 219); border-top-width: 2px; border-top-style: groove;
+}
+.Bibliography > .Heading {
+	letter-spacing: 0.02em; font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif; font-size: 24px; font-weight: 400; margin-top: 14px; margin-bottom: 7px; display: block;
+}
+.BibSection > .Heading {
+	font-size: 12pt; display: block;
+}
+.Citation {
+	margin-top: 1em;
+}
+:first-of-type.Citation {
+	margin-top: 0px;
+}
+.CitationNumber {
+	float: left;
+}
+.CitationNumber + .CitationContent {
+	text-align: left; padding-left: 2em;
+}
+.Occurrences {
+	display: block;
+}
+.BibliographyWrapper {
+	display: table;
+}
+.BibSection {
+	display: table;
+}
+.BibSection > .Heading {
+	font-size: 12pt; margin-top: 0.83em; display: block;
+}
+.BibliographyWrapper > :first-child.BibSection > :first-child.Heading {
+	margin-top: 0.3em;
+}
+.Occurrences {
+	display: block;
+}
+.Occurrence {
+	margin-right: 15px;
+}
+.OccurrenceAMSID a span span::after {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAALUlEQVQYlWNgLDv8H4YZoABFDFkCGeBVABPDqgBDA7rdWO3C5gacVmBVgA8DACqIPj0jO7W7AAAAAElFTkSuQmCC") no-repeat right; width: 8px; height: 8px; margin-left: 8px; display: inline-block; content: "";
+}
+.OccurrenceBibcode a span span::after {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAALUlEQVQYlWNgLDv8H4YZoABFDFkCGeBVABPDqgBDA7rdWO3C5gacVmBVgA8DACqIPj0jO7W7AAAAAElFTkSuQmCC") no-repeat right; width: 8px; height: 8px; margin-left: 8px; display: inline-block; content: "";
+}
+.OccurrenceCOI a span span::after {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAALUlEQVQYlWNgLDv8H4YZoABFDFkCGeBVABPDqgBDA7rdWO3C5gacVmBVgA8DACqIPj0jO7W7AAAAAElFTkSuQmCC") no-repeat right; width: 8px; height: 8px; margin-left: 8px; display: inline-block; content: "";
+}
+.OccurrenceDOI a span span::after {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAALUlEQVQYlWNgLDv8H4YZoABFDFkCGeBVABPDqgBDA7rdWO3C5gacVmBVgA8DACqIPj0jO7W7AAAAAElFTkSuQmCC") no-repeat right; width: 8px; height: 8px; margin-left: 8px; display: inline-block; content: "";
+}
+.OccurrencePID a span span::after {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAALUlEQVQYlWNgLDv8H4YZoABFDFkCGeBVABPDqgBDA7rdWO3C5gacVmBVgA8DACqIPj0jO7W7AAAAAElFTkSuQmCC") no-repeat right; width: 8px; height: 8px; margin-left: 8px; display: inline-block; content: "";
+}
+.OccurrenceSpringerLink a span span::after {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAALUlEQVQYlWNgLDv8H4YZoABFDFkCGeBVABPDqgBDA7rdWO3C5gacVmBVgA8DACqIPj0jO7W7AAAAAElFTkSuQmCC") no-repeat right; width: 8px; height: 8px; margin-left: 8px; display: inline-block; content: "";
+}
+.OccurrenceZLBID a span span::after {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAALUlEQVQYlWNgLDv8H4YZoABFDFkCGeBVABPDqgBDA7rdWO3C5gacVmBVgA8DACqIPj0jO7W7AAAAAElFTkSuQmCC") no-repeat right; width: 8px; height: 8px; margin-left: 8px; display: inline-block; content: "";
+}
+.Citation .ArticleTitle::before {
+	content: " \201C";
+}
+.Citation .ChapterTitle::before {
+	content: " \201C";
+}
+.Citation .ArticleTitle {
+	font-size: 10pt; display: inline;
+}
+.Citation .ChapterTitle {
+	font-size: 10pt; display: inline;
+}
+.Citation .ArticleTitle::after {
+	content: "\201D\ ";
+}
+.Citation .ChapterTitle::after {
+	content: "\201D\ In: ";
+}
+.Citation .Year::before {
+	content: " (";
+}
+.Citation .Year::after {
+	content: ") ";
+}
+.Citation .JournalTitle::after {
+	content: " ";
+}
+.Citation .VolumeID::after {
+	content: ":";
+}
+.BibChapter .FirstPage::before {
+	content: ", pp ";
+}
+.BibBook .FirstPage::before {
+	content: ", pp ";
+}
+.Citation .FirstPage + .LastPage::before {
+	content: "\2013";
+}
+.Citation .BookTitle::after {
+	content: ", ";
+}
+.Citation .BibEditorName::after {
+	content: ", ";
+}
+.Citation .EditionNumber::after {
+	content: ", ";
+}
+.Citation .PublisherName::after {
+	content: ", ";
+}
+.BibComments {
+	display: block;
+}
+.return-to-abstract {
+	margin: 4px 39px 0px; padding: 1em 0px; font-size: 1.2em; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted; display: block;
+}
+.return-to-abstract span {
+	margin-left: -18px;
+}
+.FulltextWrapper {
+	margin: 25px 4.25% 0px; padding: 0px;
+}
+.ArticleContextInformation {
+	width: 73.25%;
+}
+.Categories {
+	width: 73.25%;
+}
+.MainTitleSection {
+	width: 73.25%;
+}
+.AuthorNames {
+	width: 73.25%;
+}
+.AuthorGroup {
+	width: 73.25%;
+}
+.ArticleHistory {
+	width: 73.25%;
+}
+.KeywordGroup {
+	width: 73.25%;
+}
+.AbbreviationGroup {
+	width: 73.25%;
+}
+.ArticleNote {
+	width: 73.25%;
+}
+.Heading {
+	width: 73.25%;
+}
+.Para {
+	width: 73.25%;
+}
+.Acknowledgments {
+	width: 73.25%;
+}
+.ArticleOrChapterToc {
+	width: 73.25%;
+}
+.ForeignLanguageHeader {
+	width: 73.25%;
+}
+.SectionTypeWarning {
+	width: 73.25%;
+}
+.Glossary {
+	width: 73.25%;
+}
+.License {
+	width: 73.25%;
+}
+.ArticleCopyright {
+	width: 73.25%;
+}
+@media all and (max-width:980px)
+{
+.ArticleContextInformation {
+	width: 75%;
+}
+.Categories {
+	width: 75%;
+}
+.MainTitleSection {
+	width: 75%;
+}
+.AuthorNames {
+	width: 75%;
+}
+.AuthorGroup {
+	width: 75%;
+}
+.ArticleHistory {
+	width: 75%;
+}
+.KeywordGroup {
+	width: 75%;
+}
+.AbbreviationGroup {
+	width: 75%;
+}
+.ArticleNote {
+	width: 75%;
+}
+.Heading {
+	width: 75%;
+}
+.Para {
+	width: 75%;
+}
+.Acknowledgments {
+	width: 75%;
+}
+.ArticleOrChapterToc {
+	width: 75%;
+}
+.ForeignLanguageHeader {
+	width: 75%;
+}
+.SectionTypeWarning {
+	width: 75%;
+}
+.ArticleNote {
+	width: 75%;
+}
+.Glossary {
+	width: 75%;
+}
+.License {
+	width: 75%;
+}
+.ArticleCopyright {
+	width: 75%;
+}
+}
+@media all and (max-width:850px)
+{
+.FulltextWrapper {
+	margin-right: 4.25%;
+}
+.ArticleContextInformation {
+	width: 100%;
+}
+.Categories {
+	width: 100%;
+}
+.MainTitleSection {
+	width: 100%;
+}
+.AuthorNames {
+	width: 100%;
+}
+.AuthorGroup {
+	width: 100%;
+}
+.ArticleHistory {
+	width: 100%;
+}
+.KeywordGroup {
+	width: 100%;
+}
+.AbbreviationGroup {
+	width: 100%;
+}
+.ArticleNote {
+	width: 100%;
+}
+.Heading {
+	width: 100%;
+}
+.Para {
+	width: 100%;
+}
+.Acknowledgments {
+	width: 100%;
+}
+.ArticleOrChapterToc {
+	width: 100%;
+}
+.ForeignLanguageHeader {
+	width: 100%;
+}
+.SectionTypeWarning {
+	width: 100%;
+}
+.Glossary {
+	width: 100%;
+}
+.License {
+	width: 100%;
+}
+.ArticleCopyright {
+	width: 100%;
+}
+}
+.AbbreviationGroup .Para {
+	width: 100%;
+}
+.Para .Para {
+	width: 100%;
+}
+.Acknowledgments .Para {
+	width: 100%;
+}
+.ForeignLanguageHeader .KeywordGroup {
+	width: 100%;
+}
+.ForeignLanguageHeader .Para {
+	width: 100%;
+}
+.SectionTypeWarning .Heading {
+	width: 100%;
+}
+.SectionTypeWarning .Para {
+	width: 100%;
+}
+.Glossary .Heading {
+	width: 100%;
+}
+.SidebarSection .Heading {
+	width: 100%;
+}
+@media only screen and (max-device-width:1024px)
+{
+.Para {
+	font-size: 1.3em;
+}
+.Footnote .Para {
+	font-size: 1em;
+}
+}
+.ArticleOrChapterToc {
+	line-height: 2em;
+}
+.Categories {
+	margin: 21px 0px 16px;
+}
+.FormalPara {
+	margin: 0px;
+}
+.FormalPara .MediaObject {
+	margin-bottom: 0px;
+}
+.ForeignLanguageHeader {
+	padding-left: 0px;
+}
+.ArticleTitle {
+	font-size: 1em;
+}
+.Author {
+	color: rgb(51, 51, 51); font-size: 0.8em; font-weight: 400;
+}
+.Author sup {
+	margin-left: 2px;
+}
+.Affiliation {
+	margin-bottom: 6px;
+}
+.AffiliationNumber {
+	width: 2em; text-align: right; margin-left: -2.5em; float: left;
+}
+.AffiliationText {
+	margin-left: 0px;
+}
+.History {
+	line-height: 1.5em; display: block;
+}
+.History + .History {
+	padding: 0px;
+}
+.FulltextWrapper .Heading {
+	margin: 1em 0px;
+}
+.OrderedList {
+	margin-left: 1em;
+}
+.Contact {
+	margin-left: -1.5em;
+}
+.RenderAsSection1 {
+	border: 0px currentColor; border-image: none; margin-top: 2em;
+}
+.ArticleOrChapterToc {
+	border: 0px currentColor; border-image: none; margin-top: 2em;
+}
+.ForeignLanguageHeader {
+	border: 0px currentColor; border-image: none; margin-top: 2em;
+}
+.ForeignLanguageHeader + .AbbreviationGroup {
+	border: 0px currentColor; border-image: none; margin-top: 2em;
+}
+.Biographies {
+	border: 0px currentColor; border-image: none; margin-top: 2em;
+}
+.Glossary {
+	border: 0px currentColor; border-image: none; margin-top: 2em;
+}
+.SidebarSection {
+	border: 0px currentColor; border-image: none; margin-top: 2em;
+}
+.Acknowledgments {
+	border: 0px currentColor; border-image: none; margin-top: 2em;
+}
+.RenderAsSection1::before {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; display: block; content: "";
+}
+.ArticleOrChapterToc::before {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; display: block; content: "";
+}
+.ForeignLanguageHeader::before {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; display: block; content: "";
+}
+.ForeignLanguageHeader + .AbbreviationGroup::before {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; display: block; content: "";
+}
+.Biographies::after {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; display: block; content: "";
+}
+.Glossary::before {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; display: block; content: "";
+}
+.SidebarSection::before {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; display: block; content: "";
+}
+.Acknowledgments::before {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; display: block; content: "";
+}
+.RenderAsSection1::before {
+	width: 70%;
+}
+.Biographies::after {
+	width: 70%;
+}
+.ArticleOrChapterToc::before {
+	width: 100%;
+}
+.ForeignLanguageHeader::before {
+	width: 100%;
+}
+.ForeignLanguageHeader + .AbbreviationGroup::before {
+	width: 100%;
+}
+.Glossary::before {
+	width: 100%;
+}
+.SidebarSection::before {
+	width: 100%;
+}
+@media all and (max-width:980px)
+{
+.RenderAsSection1::before {
+	width: 75%;
+}
+}
+@media all and (max-width:850px)
+{
+.RenderAsSection1::before {
+	width: 100%;
+}
+}
+.Figure .Caption {
+	margin-bottom: 0px;
+}
+.MediaObject {
+	margin-bottom: 1.5em;
+}
+.MediaObject img {
+	max-width: 100%;
+}
+.Table {
+	margin-top: 1em; margin-bottom: 1.5em;
+}
+.Table table {
+	display: table;
+}
+.Bibliography {
+	border: 0px currentColor; border-image: none; margin-top: 2.5em;
+}
+.Bibliography::before {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; display: block; content: "";
+}
+.Citation {
+	line-height: 1.6em;
+}
+.CitationNumber {
+	margin-right: 1em;
+}
+.CitationNumber + .CitationContent {
+	padding-left: 0px;
+}
+.License {
+	font-style: italic;
+}
+.CopyrightComment {
+	font-style: italic;
+}
+.License strong {
+	margin: 7px 0px 4px; display: block;
+}

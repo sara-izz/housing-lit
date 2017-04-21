@@ -1,0 +1,448 @@
+@page  {}
+html {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0); line-height: 1.5; font-family: Georgia, "New Century Schoolbook", "Nimbus Roman No9 L", serif; font-size: 10pt;
+}
+a:link {
+	color: black; font-style: italic; text-decoration: none; border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid;
+}
+a:visited {
+	color: black; font-style: italic; text-decoration: none; border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.Bibliography a[href]::after {
+	border: 2px solid white; border-image: none; color: rgb(204, 204, 204); display: inline; content: " (" attr(href) ") ";
+}
+a[href^='#'] {
+	text-decoration: none;
+}
+a[href^='javascript'] {
+	text-decoration: none;
+}
+a[href^='#']::after {
+	content: "";
+}
+a[href^='javascript']::after {
+	content: "";
+}
+ol {
+	margin-left: 0.25cm;
+}
+ul {
+	margin-left: 0.25cm;
+}
+.Table {
+	border-width: 1px medium medium; border-style: solid none none; border-color: rgb(218, 219, 219) currentColor currentColor; border-image: none; width: 100%;
+}
+table {
+	border-width: 1px medium medium; border-style: solid none none; border-color: rgb(218, 219, 219) currentColor currentColor; border-image: none; width: 100%;
+}
+.Table th {
+	background: rgb(229, 229, 229); border-width: 0px 0px 5px; border-style: none none solid; border-color: currentColor currentColor rgb(218, 219, 219); padding: 7px 12px; border-image: none; box-shadow: none;
+}
+.Table td {
+	border-width: 1px; border-style: solid dotted; border-color: rgb(218, 219, 219) rgb(204, 204, 204); padding: 7px 12px; vertical-align: top; -ms-word-wrap: break-word;
+}
+.Table td:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.Table td:last-child {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+table {
+	page-break-after: auto;
+}
+tr {
+	page-break-after: auto; page-break-inside: avoid;
+}
+td {
+	page-break-after: auto; page-break-inside: avoid;
+}
+thead {
+	display: table-header-group;
+}
+tfoot {
+	display: table-footer-group;
+}
+.AffiliationNumber {
+	margin-right: 0.3em; float: left;
+}
+#logo img {
+	padding: 0px 0px 0.05cm; display: block;
+}
+#header {
+	margin-bottom: 0.5cm;
+}
+.fulltext#crossMark {
+	float: right;
+}
+.ChapterContextInformation {
+	margin: 0px; padding: 0px 0px 0.4cm; color: rgb(163, 163, 163); line-height: 16pt; letter-spacing: 1pt; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 10pt; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ChapterContextInformation .ContextInformation span {
+	display: inline;
+}
+.ChapterContextInformation .ContextInformation > span {
+	display: block;
+}
+.ChapterContextInformation .ContextInformationAuthorEditorNames {
+	font-style: italic;
+}
+.ChapterContextInformation .BookTitle::after {
+	display: inline; content: ", ";
+}
+.ChapterContextInformation .BookEdition::after {
+	display: inline; content: ", ";
+}
+.ChapterContextInformation .SeriesTitle::after {
+	display: inline; content: ": ";
+}
+.MainTitleSection {
+	margin-top: 1.8cm;
+}
+.chapter__content {
+	orphans: 2; widows: 3; box-decoration-break: slice;
+}
+.ArticleTitle {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ChapterTitle {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.FootnoteSection > .Heading {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Section1 > .Heading {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Bibliography > .Heading {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Quiz::before {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ArticleCategory {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ChapterCategory {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.BookCategory {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Abstract > .Heading {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Section2 > .Heading {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Glossary > .Headings .Heading {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Glossary > .Headings .SubHeading {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.BibSection > .Heading {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Heading {
+	page-break-after: auto; page-break-inside: auto;
+}
+h1 {
+	page-break-after: auto; page-break-inside: auto;
+}
+h2 {
+	page-break-after: auto; page-break-inside: auto;
+}
+h3 {
+	page-break-after: auto; page-break-inside: auto;
+}
+.Heading .HeadingNumber {
+	font-weight: 100;
+}
+h1 .HeadingNumber {
+	font-weight: 100;
+}
+h2 .HeadingNumber {
+	font-weight: 100;
+}
+h3 .HeadingNumber {
+	font-weight: 100;
+}
+.License strong {
+	margin-bottom: 0.25cm; display: block;
+}
+.Para {
+	font-family: Georgia, "New Century Schoolbook", "Nimbus Roman No9 L", serif;
+}
+.SimplePara {
+	font-family: Georgia, "New Century Schoolbook", "Nimbus Roman No9 L", serif;
+}
+.ArticleOrChapterToc {
+	padding-top: 0px; margin-top: 0.9cm; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.ForeignLanguageHeader {
+	padding-top: 0px; margin-top: 0.9cm; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.AbbreviationGroup {
+	padding-top: 0px; margin-top: 0.9cm; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.FootnoteSection {
+	padding-top: 0px; margin-top: 0.9cm; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.Section1 {
+	padding-top: 0px; margin-top: 0.9cm; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.SidebarSection {
+	padding-top: 0px; margin-top: 0.9cm; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.Glossary {
+	padding-top: 0px; margin-top: 0.9cm; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.Bibliography {
+	padding-top: 0px; margin-top: 0.9cm; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.MediaObject > div:first-child {
+	display: none;
+}
+.MediaObject .Caption {
+	line-height: 18pt;
+}
+.MediaObject .Caption::before {
+	margin: 0px 10px 0px 0px; float: left; content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAXCAIAAACJYYizAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA69pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wUmlnaHRzPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvcmlnaHRzLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcFJpZ2h0czpNYXJrZWQ9IkZhbHNlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InV1aWQ6Rjg4MzhGMEIzNjQ2REUxMThFMDVFMDBBOTI0RDhDQzUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NUEwOTFDN0UwRjI1MTFFMzgxNDc5RUI1RDkwMjg0NjYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NUEwOTFDN0QwRjI1MTFFMzgxNDc5RUI1RDkwMjg0NjYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTMyBNYWNpbnRvc2giPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCQ0JGNDM4RTBEMjA2ODExODA4M0QzNzhDNDVCOEU3NyIgc3RSZWY6ZG9jdW1lbnRJRD0idXVpZDpGODgzOEYwQjM2NDZERTExOEUwNUUwMEE5MjREOENDNSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pu70GuMAAABaSURBVHjaYvz//z8DGeA/GOBX09DQ8B8VILT9xwGw6iRWG5pOErQh62SESDAyMuLyIVAKLSxAggS1oRlBVW1oTkJ3G5VtG3XkADtykGsjvhBBaCMVkKkNIMAApPQuYCPn6jkAAAAASUVORK5CYII=);
+}
+.SidebarDialog {
+	background: rgb(245, 245, 245); margin: 0.5em -1em; padding: 0.5em 1em; border-left-color: rgb(245, 245, 245); border-left-width: 32px; border-left-style: solid;
+}
+div .SectionTypeBox {
+	border-width: medium medium medium 32px; border-style: none none none solid; border-color: currentColor currentColor currentColor rgb(245, 245, 245); margin: 0px 0px 0px -1em; padding: 0px 0.88em; border-image: none;
+}
+div .SectionTypeOverview {
+	border-width: medium medium medium 32px; border-style: none none none solid; border-color: currentColor currentColor currentColor rgb(245, 245, 245); margin: 0px 0px 0px -1em; padding: 0px 0.88em; border-image: none;
+}
+div .ParatypeOverview {
+	border-width: medium medium medium 32px; border-style: none none none solid; border-color: currentColor currentColor currentColor rgb(245, 245, 245); margin: 0px 0px 0px -1em; padding: 0px 0.88em; border-image: none;
+}
+.BibliographyWrapper {
+	list-style: none; padding-left: 0px; margin-left: 0px;
+}
+.CitationNumber {
+	margin-right: 1em; float: left;
+}
+.Occurrences {
+	display: block;
+}
+.FootnoteSection .Citation {
+	margin: 0.1cm 0px; font-size: 0.85em;
+}
+.Bibliography .Citation {
+	margin: 0.1cm 0px; font-size: 0.85em;
+}
+.printHack {
+	display: block; visibility: hidden;
+}
+.browse form {
+	display: none;
+}
+.btn {
+	display: none;
+}
+.content-item-list .actions {
+	display: none;
+}
+.content-item-list .cover {
+	display: none;
+}
+.document-main .col-main > .authors {
+	display: none;
+}
+.document-main .col-main > .editors {
+	display: none;
+}
+.document-main .author-list {
+	display: none;
+}
+.document-main .editor-list {
+	display: none;
+}
+.expander-empty {
+	display: none;
+}
+.expander-title {
+	display: none;
+}
+.featured .cover {
+	display: none;
+}
+.flyout {
+	display: none;
+}
+.functions-bar {
+	display: none;
+}
+.help .tooltip {
+	display: none;
+}
+.look-inside-badge {
+	display: none;
+}
+.look-inside-page {
+	display: none;
+}
+.material-list .icon {
+	display: none;
+}
+.other-actions {
+	display: none;
+}
+.panel-search {
+	display: none;
+}
+.panel-menu {
+	display: none;
+}
+.pillow-btn {
+	display: none;
+}
+.ranked .cover {
+	display: none;
+}
+.subjects-nav {
+	display: none;
+}
+.summary .authors img {
+	display: none;
+}
+.toc .actions {
+	display: none;
+}
+#abstract-actions {
+	display: none;
+}
+#auth {
+	display: none;
+}
+#bar-dock {
+	display: none;
+}
+#date-facet {
+	display: none;
+}
+#diagnostic-info {
+	display: none;
+}
+#fdbk_tab {
+	display: none;
+}
+#footer a {
+	display: none;
+}
+#footer-nav {
+	display: none;
+}
+#global-nav {
+	display: none;
+}
+#global-search {
+	display: none;
+}
+#jsnotice {
+	display: none;
+}
+#lang {
+	display: none;
+}
+#newest img {
+	display: none;
+}
+#only-searching-within .cover {
+	display: none;
+}
+#only-searching-within .stop {
+	display: none;
+}
+#footer-branding {
+	display: none;
+}
+#footer-privacy {
+	display: none;
+}
+#reader-overlay {
+	display: none;
+}
+#results .col-aside {
+	display: none;
+}
+#results-list .actions {
+	display: none;
+}
+#results-teaser-all {
+	display: none;
+}
+#toolbar {
+	display: none;
+}
+.bar-dock {
+	display: none;
+}
+.open.fulltext-embed-action {
+	display: none;
+}
+.closed.fulltext-embed-action {
+	display: none;
+}
+.look-inside-interrupt {
+	display: none;
+}
+.col-aside {
+	display: none;
+}
+#title {
+	display: none;
+}
+.abstract-heading {
+	display: none;
+}
+.abstract-content {
+	display: none;
+}
+#doubleclick-ad {
+	display: none;
+}
+#footer {
+	display: none;
+}
+.OrderedList {
+	list-style-type: none;
+}
+.ItemNumber {
+	padding-right: 0.3em; float: left;
+}
+ul.UnorderedListMarkNone {
+	list-style-type: none;
+}
+ul.UnorderedListMarkNone li {
+	margin: 0.94em 0px;
+}
+ul.UnorderedListMarkDash li {
+	margin: 0.94em 0px;
+}
+ul.UnorderedListMarkBullet li {
+	margin: 0.94em 0px;
+}
+ul.UnorderedListMarkNone li :first-of-type.Para {
+	margin-top: 0px; margin-bottom: 0px;
+}
+ul.UnorderedListMarkDash li :first-of-type.Para {
+	margin-top: 0px; margin-bottom: 0px;
+}
+ul.UnorderedListMarkBullet li :first-of-type.Para {
+	margin-top: 0px; margin-bottom: 0px;
+}
+#abstract-about .expander-title {
+	display: block;
+}
+#abstract-about button {
+	padding: 0px; border: currentColor; border-image: none; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; background-color: white;
+}
+dd ul {
+	padding: 0px;
+}
